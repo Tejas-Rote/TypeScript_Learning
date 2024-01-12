@@ -1,0 +1,24 @@
+------------> General 
+
+Type Annotations
+    code we add to tell typescript what type of value a variable refers to
+
+Type Inference
+    typescript tries to figure out what type of variable refers to 
+
+    variable 
+        declaration        initialization 
+    |  const  |  color  | = |  'red';  |
+
+    if declaration and initialization are on the same line , 
+    typescript will figure out the type of 'color' for us
+
+
+------------> Functions 
+
+Type Annotations
+    code we add to tell typescript what type of arguments a function will receive and 
+    what type of value it will return
+
+Type Inference
+    typescript figures out what type of value a function will return

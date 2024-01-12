@@ -1,0 +1,23 @@
+Typed arrays    
+    arrays where each element is some consistent type of value
+
+how it is different from tuple (example)
+
+// object representing a drink
+
+   color   -> brown
+carbonated -> true
+   sugar   -> 40
+
+
+// in form of tuple 
+
+[brown, true, 40]
+
+
+this looks like an array but it has a specific order of color, carbonated and sugar.
+if that order is not maintained and the info in it is any arbitrary order then thats an array
+
+[40 , true, brown]
+
+as in tuple format it is very hard to understand hence we use the objects

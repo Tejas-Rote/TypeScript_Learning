@@ -1,0 +1,6 @@
+Interfaces
+    creates a new type, describing the property name and value types of an object
+    One interface can describe various objects.
+
+Create functions that accept arguments that are typed with Interfaces
+Objects/classes can decide to 'implement' a given interface to work with a function.

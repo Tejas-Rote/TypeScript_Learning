@@ -1,0 +1,4 @@
+classes 
+    Blueprint to create an object with some fields (values) and methods to represnt a'thing'
+
+    Define a set of fields(values) and methods (funtions) to represent a 'thing'

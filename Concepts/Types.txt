@@ -1,0 +1,9 @@
+Types have 2 sub-types:
+    -> primitive types = number, boolean , void , undefined , string , symbol , null
+    -> object types = functions, class , arrays , objects
+
+Object types can trick compiler into believing that one type is actually another type.
+
+Types are used by the typescript compiler to analyze our code for errors
+
+Types allows others to understand what values are flowing around our codebases. 
