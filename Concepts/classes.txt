@@ -2,3 +2,10 @@ classes
     Blueprint to create an object with some fields (values) and methods to represnt a'thing'
 
     Define a set of fields(values) and methods (funtions) to represent a 'thing'
+
+Abstract  Classes  
+    Cant be used to cerate an object directly 
+    Only used as a parent class
+    can contain real implementation for some methods
+    they implemented methods can refer to other methods that don't exist yet
+    can make child classes promise to implement some other methods

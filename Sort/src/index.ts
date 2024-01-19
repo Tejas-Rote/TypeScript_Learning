@@ -48,16 +48,14 @@ import { LinkedList } from "./LinkedList";
 
 // numbers
 const numbersCollection = new NumbersCollection([10,3,-5,0])
-const sorter1 = new Sorter(numbersCollection);
-console.log(sorter1.collection)
-sorter1.sort();
+console.log(numbersCollection.data)
+numbersCollection.sort();
 console.log(numbersCollection.data)
 
 // stirng
 const charactersCollection = new CharactersCollection('Xaayb');
-const sorter2 = new Sorter(charactersCollection);
-console.log(sorter2.collection)
-sorter2.sort();
+console.log(charactersCollection.data)
+charactersCollection.sort();
 console.log(charactersCollection.data)
 
 
@@ -68,10 +66,9 @@ linkedList .add(-10);
 linkedList .add(3);
 linkedList .add(-4);
 
-const sorter3 = new Sorter(linkedList)
-console.log(sorter3.collection)
-sorter3.sort();
+linkedList.print();
+linkedList.sort();
 linkedList.print();
 
-// to make this even better we should refactor code to minimize this code and just simply call sort to sort the collection
-// to do that one method can be use the inheritance concept
+// // to make this even better we should refactor code to minimize this code and just simply call sort to sort the collection
+// // to do that one method can be use the inheritance concept
