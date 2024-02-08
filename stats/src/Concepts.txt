@@ -1,0 +1,17 @@
+enums
+    -Follow near-identical syntax rules as normal objects 
+    -Creates an object with the same keys and calues when converted from TS to JS
+    -Primary goal is to signal to other engineers that these are all closely related values
+    -Use whenever we have a small fixed set of values that are all closely related and know at compile time 
+
+
+Generics - 
+    Like function arguments , but for types in class/functino definations
+    allows us to define the type of a property/arguments/return value at a future point 
+    used heavily when writing reusable code 
+    
+    example:
+    
+    class HoldAnything <TypeOfData> {
+        data:TypeOfData // this is generic and need to be given when instantiating .
+    }
